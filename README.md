@@ -2,6 +2,7 @@
 V Chat App is a web based chatting app using PHP , HTML , CSS and JavaScript
 Download XAMPP for to view this project on your pc.
 In browser search localhost/phpmyadmin and create the table below<br/><br/>
+v-chat-app folder contains project files<br/>
 <hr/>
 -- 1. create database 'chatapp' <br/>
 -- 2. create table 'messages' in database<br/>
