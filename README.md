@@ -34,13 +34,13 @@ CREATE TABLE 'users' (
 ALTER TABLE 'messages'
   ADD PRIMARY KEY ('msg_id');
 
-ALTER TABLE `users`
+ALTER TABLE 'users'
   ADD PRIMARY KEY ('user_id');
 
-ALTER TABLE `messages`
+ALTER TABLE 'messages'
   MODIFY 'msg_id' int(11) NOT NULL AUTO_INCREMENT;
 
-ALTER TABLE `users`
+ALTER TABLE 'users'
   MODIFY 'user_id' int(11) NOT NULL AUTO_INCREMENT;
 
 
