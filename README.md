@@ -3,9 +3,9 @@ V Chat App is a web based chatting app using PHP , HTML , CSS and JavaScript
 Download XAMPP for to view this project on your pc.
 In browser search localhost/phpmyadmin and create the table below<br/><br/>
 <hr/>
--- create database 'chatapp' <br/>
--- create table 'messages' in database
--- create table 'users' in database
+-- 1. create database 'chatapp' <br/>
+-- 2. create table 'messages' in database<br/>
+-- 3. create table 'users' in database<br/>
 
 -- -------------------------------------------------------
 
@@ -31,17 +31,17 @@ CREATE TABLE 'users' (
 
 
 
-ALTER TABLE `messages`
-  ADD PRIMARY KEY (`msg_id`);
+ALTER TABLE 'messages'
+  ADD PRIMARY KEY ('msg_id');
 
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`user_id`);
+  ADD PRIMARY KEY ('user_id');
 
 ALTER TABLE `messages`
-  MODIFY `msg_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY 'msg_id' int(11) NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY 'user_id' int(11) NOT NULL AUTO_INCREMENT;
 
 
 
